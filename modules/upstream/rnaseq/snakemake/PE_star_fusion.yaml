@@ -1,0 +1,15 @@
+# 给样本名，文件夹
+# 给gtf，hisat注释文件
+# 
+
+samples:
+    CJX20200428A: /gatk/top/media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/pair_end/CJX20200428A
+    CK20200522B: /gatk/top/media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/pair_end/CK20200522B
+
+
+
+file_dir: /gatk/top/media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/pair_end
+
+
+
+star_fusion_lib: /gatk/top/media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/lgh/reference/star_fusion/GRCh38_gencode_v37_CTAT_lib_Mar012021.plug-n-play/ctat_genome_lib_build_dir/

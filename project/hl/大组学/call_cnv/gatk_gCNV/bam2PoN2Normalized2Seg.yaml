@@ -1,0 +1,20 @@
+samples_ctrl:
+    HW3: /gatk/top/media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/wes/ctrl/bam/HW3.final.bam 
+    HW4: /gatk/top/media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/wes/ctrl/bam/HW4.final.bam 
+    LJ: /gatk/top/media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/wes/ctrl/bam/LJ.final.bam 
+
+
+
+samples_tumor:
+    CHX20170528: /gatk/top/media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/wes/tumor/bam/CHX20170528.final.bam
+    CJC2017_4_13: /gatk/top/media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/wes/tumor/bam/CJC2017_4_13.final.bam
+    DCY20181115: /gatk/top/media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/wes/tumor/bam/DCY20181115.final.bam
+
+
+
+ref: /gatk/my_dir/reference/genome/hg19/GRCh37/Homo_sapiens.GRCh37.dna.primary_assembly.fa
+
+
+
+interval_list: /gatk/my_dir/my_upstream_project/hl_call_cnv/gatk_sCNV/try_again_2/GRCh37.preprocessed.interval_list
+

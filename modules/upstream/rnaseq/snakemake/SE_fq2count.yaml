@@ -1,0 +1,12 @@
+
+#gtf: /gatk/my_dir/reference/gtf/hg38.ensGene.gtf
+gtf: /gatk/top/media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/lgh/reference/gtf/gencode.v32lift37.annotation.gtf
+
+hisat2_index: /gatk/top/media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/lgh/reference/index/hisat/hg19/
+
+fq_file_1: 
+    SCH20170906: /gatk/top/media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/try2/SCH20170906_1.fq.gz
+    gaohongwu: /gatk/top/media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/gaohongwu.fq.gz
+    guhemei: /gatk/top/media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/guhemei.fq.gz
+    haojun: /gatk/top/media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/haojun.fq.gz
+    huangdingguo: /gatk/top/media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/huangdingguo.fq.gz

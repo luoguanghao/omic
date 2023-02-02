@@ -1,0 +1,25 @@
+# 给样本名，文件夹
+# 给gtf，hisat注释文件
+# 
+
+samples:
+    CJX20200428A: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/pair_end/CJX20200428A
+    CK20200522B: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/pair_end/CK20200522B
+
+
+
+file_dir: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/pair_end
+
+
+# ref: /gatk/my_dir/reference/gatk_bundle/hg38/genome/Homo_sapiens_assembly38.fasta
+# ref: /gatk/top/media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/lgh/reference/genome/hg38/hg38.fa
+
+gtf: /gatk/top/media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/lgh/reference/gtf/gencode.v38.annotation.gtf
+#gtf: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/lgh/reference/gtf/gencode.v32lift37.annotation.gtf
+#gtf: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/raw_data/rnaseq_genome/Mus_musculus.GRCm38.94.chr_patch_hapl_scaff.gtf
+
+
+hisat2_index: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/lgh/reference/index/hisat/hg38/genome
+# hisat2_index: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/lgh/reference/index/hisat/hg19/genome
+# hisat2_index: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/raw_data/rnaseq_genome/grcm38/genome
+

@@ -1,0 +1,228 @@
+
+# 外线子坐标interval文件
+
+
+GATK=/gatk/gatk
+ref=/gatk/my_dir/reference/genome/hg19/hg19.fa
+bed=/gatk/my_dir/my_upstream_project/hl_call_cnv/data/novo_wes_add_chr.bed
+dict=/gatk/my_dir/reference/genome/hg19/hg19.dict
+work_dir=.
+
+
+
+
+## bed to intervals_list
+# 输入bed文件
+# 输出 interval_list文件
+$GATK BedToIntervalList -I ${bed} -O ~/wes_cancer/data/hg38.exon.interval_list -SD ${dict}
+
+## Preprocess Intervals
+## 输入 interval_list，参考基因组dict，参考基因组fa，一些 参数
+## 输出 targets.preprocessed.interval.list
+$GATK  PreprocessIntervals \
+-L ${work_dir}/hg19.exon.interval_list \
+--sequence-dictionary ${dict} \
+--reference ${ref}  \
+--padding 250 \
+--bin-length 0 \
+--interval-merging-rule OVERLAPPING_ONLY \
+--output ${work_dir}/targets.preprocessed.interval.list
+
+
+# get read count, create PoN
+#
+#
+interval=~/wes_cancer/data/targets.preprocessed.interval.list
+GATK=~/wes_cancer/biosoft/gatk-4.1.4.1/gatk
+ref=~/wes_cancer/data/Homo_sapiens_assembly38.fasta
+
+cat config3 | while read id
+do
+  i=./5.gatk/${id}_bqsr.bam
+  echo ${i}
+  ## step1 : CollectReadCounts
+  ## 这里可以输入BAM文件
+  time $GATK  --java-options "-Xmx20G -Djava.io.tmpdir=./"  CollectReadCounts \
+  -I ${i} \
+  -L ${interval} \
+  -R ${ref} \
+  --format HDF5  \
+  --interval-merging-rule OVERLAPPING_ONLY \
+  --output ./8.cnv/gatk/counts/${id}.clean_counts.hdf5
+done
+
+## step2 : Generate a CNV panel of normals:cnvponM.pon.hdf5
+## 输入文件就是CollectReadCounts的输出文件
+$GATK  --java-options "-Xmx20G -Djava.io.tmpdir=./" CreateReadCountPanelOfNormals \
+--minimum-interval-median-percentile 5.0 \
+--output ./8.cnv/gatk/cnvponM.pon.hdf5 \
+--input ./8.cnv/gatk/counts/case1_germline.clean_counts.hdf5 \
+--input ./8.cnv/gatk/counts/case2_germline.clean_counts.hdf5 \
+--input ./8.cnv/gatk/counts/case3_germline.clean_counts.hdf5 \
+--input ./8.cnv/gatk/counts/case4_germline.clean_counts.hdf5 \
+--input ./8.cnv/gatk/counts/case5_germline.clean_counts.hdf5 \
+--input ./8.cnv/gatk/counts/case6_germline.clean_counts.hdf5 
+
+
+
+
+# Normalization
+
+GATK=~/wes_cancer/biosoft/gatk-4.1.4.1/gatk
+cat config3 | while read id
+do
+  i=./8.cnv/gatk/counts/${id}.clean_counts.hdf5
+  $GATK  --java-options "-Xmx20g" DenoiseReadCounts \
+  -I ${i} \
+  --count-panel-of-normals ./8.cnv/gatk/cnvponM.pon.hdf5 \
+  --standardized-copy-ratios ./8.cnv/gatk/standardizedCR/${id}.clean.standardizedCR.tsv \
+  --denoised-copy-ratios ./8.cnv/gatk/denoisedCR/${id}.clean.denoisedCR.tsv
+done
+
+
+
+
+
+
+
+# visualization
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

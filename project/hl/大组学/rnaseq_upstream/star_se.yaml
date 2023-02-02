@@ -1,0 +1,118 @@
+# ref: /gatk/my_dir/reference/gatk_bundle/hg38/genome/Homo_sapiens_assembly38.fasta
+ref: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/lgh/reference/genome/hg19/old_hg19/hg19.fa
+
+#gtf: /gatk/my_dir/reference/gtf/hg38.ensGene.gtf
+gtf: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/lgh/reference/gtf/gencode.v32lift37.annotation.gtf
+
+
+star_index: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/workspace/snv/try_all_se/hg19_index/
+
+fq_file_1: 
+    gaohongwu: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/gaohongwu.fq.gz
+    guhemei: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/guhemei.fq.gz
+    haojun: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/haojun.fq.gz
+    huangdingguo: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/huangdingguo.fq.gz
+    jianglinwu: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/jianglinwu.fq.gz
+    lishinong: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/lishinong.fq.gz
+    liuyuzhu: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/liuyuzhu.fq.gz
+    niuwenxiang: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/niuwenxiang.fq.gz
+    shaochangqing: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/shaochangqing.fq.gz
+    shenhehua: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/shenhehua.fq.gz
+    songyidan: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/songyidan.fq.gz
+    tangzhifa: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/tangzhifa.fq.gz
+    tiandaxiang: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/tiandaxiang.fq.gz
+    wangmengxia: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/wangmengxia.fq.gz
+    wangting: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/wangting.fq.gz
+    wangtuoqi: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/wangtuoqi.fq.gz
+    xufujiu: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/xufujiu.fq.gz
+    yangdaoshun: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/yangdaoshun.fq.gz
+    yangrujun: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/yangrujun.fq.gz
+    yangxiaoqing: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/yangxiaoqing.fq.gz
+    yuanjingfang: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/yuanjingfang.fq.gz
+    yueli: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/yueli.fq.gz
+    yuxiaoqiu: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/yuxiaoqiu.fq.gz
+    zhangfengjuan: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/zhangfengjuan.fq.gz
+    zhangfengying: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/zhangfengying.fq.gz
+    zhangguoyan: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/zhangguoyan.fq.gz
+    zhangkun: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/zhangkun.fq.gz
+    zhangshengshi: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/zhangshengshi.fq.gz
+    zhangyoukuan: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/zhangyoukuan.fq.gz
+    zhaobingyu: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/zhaobingyu.fq.gz
+    zhengmin: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/zhengmin.fq.gz
+    zhouheping: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/zhouheping.fq.gz
+    zhouxuan: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/zhouxuan.fq.gz
+    zhuchunrong: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/zhuchunrong.fq.gz
+    chenjiacaiA: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/chenjiacaiA.fq.gz
+    hejixiangA: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/hejixiangA.fq.gz
+    hexinminA: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/hexinminA.fq.gz
+    huangxinA: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/huangxinA.fq.gz
+    hujieyuA: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/hujieyuA.fq.gz
+    lijifuA: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/lijifuA.fq.gz
+    liuhuiyanA: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/liuhuiyanA.fq.gz
+    liuyanA: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/liuyanA.fq.gz
+    liuzhixianA: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/liuzhixianA.fq.gz
+    taoyunzhenA: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/taoyunzhenA.fq.gz
+    FRH20200921A: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/FRH20200921A.fq.gz
+    HSM20200921A: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/HSM20200921A.fq.gz
+    HW20200922: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/HW20200922.fq.gz
+    TL20200911A: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/TL20200911A.fq.gz
+    ZJ20200903A: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/ZJ20200903A.fq.gz
+    ZZG20201009A: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/ZZG20201009A.fq.gz
+    HY20190704A: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/HY20190704A.fq.gz
+    HYD20190408A: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/HYD20190408A.fq.gz
+    LAY20190516A: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/LAY20190516A.fq.gz
+    LMD20190627A: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/LMD20190627A.fq.gz
+    SCH20170906_1: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/SCH20170906_1.fq.gz
+    WPY20190613A: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/WPY20190613A.fq.gz
+    WYP20180122_1: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/WYP20180122_1.fq.gz
+    WYS20190530A: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/WYS20190530A.fq.gz
+    XKY20190627A: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/XKY20190627A.fq.gz
+    YRL20190709A: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/YRL20190709A.fq.gz
+    ZDH20190408A: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/ZDH20190408A.fq.gz
+    ZXK20190708A: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/ZXK20190708A.fq.gz
+    ZYC20170914_1: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/ZYC20170914_1.fq.gz
+    ZXY20181112: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/CL100130546_L1_WHHUMlijRAALRAA-539_1.fq.gz
+    SGF20181115: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/SGF20181115.fq.gz
+    HTS20181116: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/CL100130546_L1_WHHUMlijRAANRAA-541_1.fq.gz
+    LMF20190218: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/LMF20190218.fq.gz
+    FDY20190228: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/CL100130546_L1_WHHUMlijRAAPRAA-543_1.fq.gz
+    LKZ20190311: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/CL100130526_L1_WHHUMlijRAABRAA-523_1.fq.gz
+    FJ20190320: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/CL100130546_L1_WHHUMlijRAAQRAA-544_1.fq.gz
+    CJ20170918: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/CL100130526_L1_WHHUMlijRAADRAA-525_1.fq.gz
+    ZJQ20171228: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/CL100130526_L1_WHHUMlijRAAERAA-526_1.fq.gz
+    YZH20171129: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/CL100130526_L1_WHHUMlijRAAFRAA-527_1.fq.gz
+    LLE20180515: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/LLE20180515.fq.gz
+    XXZ20171019: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/CL100130526_L1_WHHUMlijRAAHRAA-530_1.fq.gz
+    LMW20171116: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/CL100130546_L1_WHHUMlijRAAIRAA-531_1.fq.gz
+    LQX20180913: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/CL100130526_L1_WHHUMlijRAAARAA-522_1.fq.gz
+    XLF20170915: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/CL100130546_L1_WHHUMlijRAAJRAA-532_1.fq.gz
+    LFY20170831: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/CL100130546_L1_WHHUMlijRAAKRAA-538_1.fq.gz
+    CJ20180525: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/CJ20180525.fq.gz
+    DZW20180723: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/CL100152935_L1_WHMOUsbqRAANRAA-635_1.fq.gz
+    FLC20181029: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/CL100152935_L1_WHMOUsbqRAACRAA-621_1.fq.gz
+    GML20171106: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/CL100152935_L2_WHMOUsbqRAATRAA-645_1.fq.gz
+    HAX20180614: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/CL100152935_L1_WHMOUsbqRAAKRAA-632_1.fq.gz
+    JDM20180419: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/CL100152935_L1_WHMOUsbqRAAGRAA-626_1.fq.gz
+    JW20170911: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/CL100152935_L2_WHMOUsbqRAAQRAA-641_1.fq.gz
+    LJP20180625: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/CL100152935_L1_WHMOUsbqRAALRAA-633_1.fq.gz
+    LJY20171130: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/CL100152935_L2_WHMOUsbqRAAORAA-637_1.fq.gz
+    LY20170902: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/CL100152935_L2_WHMOUsbqRAARRAA-643_1.fq.gz
+    LYX20180621: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/CL100152935_L2_WHMOUsbqRAAVRAA-647_1.fq.gz
+    LYZ20180621: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/CL100152935_L2_WHMOUsbqRAAWRAA-649_1.fq.gz
+    MDC20181029: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/CL100152935_L2_WHMOUsbqRAAXRAA-650_1.fq.gz
+    MLC20180521: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/CL100152935_L1_WHMOUsbqRAAIRAA-629_1.fq.gz
+    PY20190704: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/CL100152935_L1_WHMOUsbqRAADRAA-622_1.fq.gz
+    SRY20170824: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/CL100152935_L2_WHMOUsbqRAASRAA-644_1.fq.gz
+    TJY20180628: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/CL100152935_L1_WHMOUsbqRAAMRAA-634_1.fq.gz
+    WGH20180423: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/CL100152935_L1_WHMOUsbqRAAHRAA-627_1.fq.gz
+    WHH20181026: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/CL100152935_L1_WHMOUsbqRAABRAA-620_1.fq.gz
+    WHP20180927: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/CL100152935_L1_WHMOUsbqRAAARAA-619_1.fq.gz
+    YFG20190829: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/CL100152935_L1_WHMOUsbqRAAERAA-623_1.fq.gz
+    YJQ20180423: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/CL100152935_L1_WHMOUsbqRAAFRAA-625_1.fq.gz
+    YZH20171129: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/CL100152935_L2_WHMOUsbqRAAURAA-646_1.fq.gz
+    ZH20180125: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/single_end/CL100152935_L2_WHMOUsbqRAAPRAA-639_1.fq.gz
+
+
+
+
+

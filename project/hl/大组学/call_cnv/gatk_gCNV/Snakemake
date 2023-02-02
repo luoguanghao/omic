@@ -1,0 +1,169 @@
+configfile: "config.yaml"
+
+def get_bam_file(wildcards):
+    return config["bam_file"][wildcards.bam_file]
+def get_sample_name(wildcards):
+    return config["samples"][wildcards.sample]
+
+
+
+rule CollectReadCounts:
+    input:
+        bam_file=get_bam_file
+        ref=config["ref"]
+    output:
+        sandbox/{sample}.hdf5
+    shell:
+        "echo {bam_file} "
+
+'''
+rule CollectReadCounts:
+    input:
+        bam_file="/gatk/my_dir/my_upstream_project/hl_call_cnv/data/bam_file/ctrl/FQ20200912.final.bam",
+        interval_list="./GRCh37.preprocessed.interval_list",
+        ref="/gatk/my_dir/reference/genome/hg19/GRCh37/Homo_sapiens.GRCh37.dna.primary_assembly.fa"
+    output:
+        "sandbox/FQ20200912.hdf5"
+    shell:
+        "/gatk/gatk --java-options '-Xmx40G'  CollectReadCounts "
+        "-I {input.bam_file} "
+        "-L /gatk/my_dir/my_upstream_project/hl_call_cnv/data/targets.preprocessed.interval_list "
+        "-R {input.ref} "
+        "--format HDF5 "
+        "--interval-merging-rule OVERLAPPING_ONLY "
+        "--output {output} "
+
+'''
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,103 @@
+
+samples_ctrl:
+    FJ20190320: /gatk/top/media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/wes/ctrl/bam/FJ20190320.final.bam 
+    FQ20200912: /gatk/top/media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/wes/ctrl/bam/FQ20200912.final.bam 
+    HW3: /gatk/top/media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/wes/ctrl/bam/HW3.final.bam 
+    HW4: /gatk/top/media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/wes/ctrl/bam/HW4.final.bam 
+    JQL20210308: /gatk/top/media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/wes/ctrl/bam/JQL20210308.final.bam 
+    LJ: /gatk/top/media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/wes/ctrl/bam/LJ.final.bam 
+    SYD20190115: /gatk/top/media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/wes/ctrl/bam/SYD20190115.final.bam 
+    YCMZL: /gatk/top/media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/wes/ctrl/bam/YCMZL.final.bam 
+    YM20171123: /gatk/top/media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/wes/ctrl/bam/YM20171123.final.bam
+
+
+
+samples_tumor:
+    CHX20170528: /gatk/top/media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/wes/tumor/bam/CHX20170528.final.bam
+    CJC2017_4_13: /gatk/top/media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/wes/tumor/bam/CJC2017_4_13.final.bam
+    DCY20181115: /gatk/top/media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/wes/tumor/bam/DCY20181115.final.bam
+    FJ20190320: /gatk/top/media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/wes/tumor/bam/FJ20190320.final.bam
+    fq20200912: /gatk/top/media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/wes/tumor/bam/fq20200912.final.bam
+    GHM20181125: /gatk/top/media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/wes/tumor/bam/GHM20181125.final.bam
+    GHW20170803: /gatk/top/media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/wes/tumor/bam/GHW20170803.final.bam
+    GNH20181115: /gatk/top/media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/wes/tumor/bam/GNH20181115.final.bam
+    GYB20170424: /gatk/top/media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/wes/tumor/bam/GYB20170424.final.bam
+    HDG20180206: /gatk/top/media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/wes/tumor/bam/HDG20180206.final.bam
+    HJ20170814: /gatk/top/media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/wes/tumor/bam/HJ20170814.final.bam
+    HJX20170511: /gatk/top/media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/wes/tumor/bam/HJX20170511.final.bam
+    HJY20171116: /gatk/top/media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/wes/tumor/bam/HJY20171116.final.bam
+    HX20170601: /gatk/top/media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/wes/tumor/bam/HX20170601.final.bam
+    JJH20180111: /gatk/top/media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/wes/tumor/bam/JJH20180111.final.bam
+    JLW0171027: /gatk/top/media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/wes/tumor/bam/JLW0171027.final.bam
+    LGQ20171116: /gatk/top/media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/wes/tumor/bam/LGQ20171116.final.bam
+    LK20170828: /gatk/top/media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/wes/tumor/bam/LK20170828.final.bam
+    LQJ20170619: /gatk/top/media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/wes/tumor/bam/LQJ20170619.final.bam
+    LSN20190103: /gatk/top/media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/wes/tumor/bam/LSN20190103.final.bam
+    LYZ20180621: /gatk/top/media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/wes/tumor/bam/LYZ20180621.final.bam
+    LZC20180723: /gatk/top/media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/wes/tumor/bam/LZC20180723.final.bam
+    LZY20200720: /gatk/top/media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/wes/tumor/bam/LZY20200720.final.bam
+    MDC20181029: /gatk/top/media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/wes/tumor/bam/MDC20181029.final.bam
+    NWX20171102: /gatk/top/media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/wes/tumor/bam/NWX20171102.final.bam
+    QJG20210204: /gatk/top/media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/wes/tumor/bam/QJG20210204.final.bam
+    SCQ20170103: /gatk/top/media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/wes/tumor/bam/SCQ20170103.final.bam
+    SHH20180828: /gatk/top/media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/wes/tumor/bam/SHH20180828.final.bam
+    SRY20170824: /gatk/top/media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/wes/tumor/bam/SRY20170824.final.bam
+    SYD20190115: /gatk/top/media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/wes/tumor/bam/SYD20190115.final.bam
+    SYY: /gatk/top/media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/wes/tumor/bam/SYY.final.bam
+    TDX20180712: /gatk/top/media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/wes/tumor/bam/TDX20180712.final.bam
+    TZF20171030: /gatk/top/media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/wes/tumor/bam/TZF20171030.final.bam
+    WHL20180102: /gatk/top/media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/wes/tumor/bam/WHL20180102.final.bam
+    WHM20171218: /gatk/top/media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/wes/tumor/bam/WHM20171218.final.bam
+    WMX20170424: /gatk/top/media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/wes/tumor/bam/WMX20170424.final.bam
+    WT20170407: /gatk/top/media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/wes/tumor/bam/WT20170407.final.bam
+    WTQ20170522: /gatk/top/media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/wes/tumor/bam/WTQ20170522.final.bam
+    XFJ20170619: /gatk/top/media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/wes/tumor/bam/XFJ20170619.final.bam
+    XXZ20171019: /gatk/top/media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/wes/tumor/bam/XXZ20171019.final.bam
+    YDS20180313: /gatk/top/media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/wes/tumor/bam/YDS20180313.final.bam
+    YJF20181030: /gatk/top/media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/wes/tumor/bam/YJF20181030.final.bam
+    YL20181206: /gatk/top/media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/wes/tumor/bam/YL20181206.final.bam
+    YM20171123: /gatk/top/media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/wes/tumor/bam/YM20171123.final.bam
+    YRJ20170731: /gatk/top/media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/wes/tumor/bam/YRJ20170731.final.bam
+    YXQ20170413: /gatk/top/media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/wes/tumor/bam/YXQ20170413.final.bam
+    YXQ20191206: /gatk/top/media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/wes/tumor/bam/YXQ20191206.final.bam
+    ZBY20170725: /gatk/top/media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/wes/tumor/bam/ZBY20170725.final.bam
+    ZCR20180222: /gatk/top/media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/wes/tumor/bam/ZCR20180222.final.bam
+    ZDQ20170413: /gatk/top/media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/wes/tumor/bam/ZDQ20170413.final.bam
+    ZFJ20170417: /gatk/top/media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/wes/tumor/bam/ZFJ20170417.final.bam
+    ZFY20170413: /gatk/top/media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/wes/tumor/bam/ZFY20170413.final.bam
+    ZGY20190108: /gatk/top/media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/wes/tumor/bam/ZGY20190108.final.bam
+    zhangkun: /gatk/top/media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/wes/tumor/bam/zhangkun.final.bam
+    ZHP20170807: /gatk/top/media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/wes/tumor/bam/ZHP20170807.final.bam
+    ZJG20181213: /gatk/top/media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/wes/tumor/bam/ZJG20181213.final.bam
+    ZJY20200612: /gatk/top/media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/wes/tumor/bam/ZJY20200612.final.bam
+    ZLH: /gatk/top/media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/wes/tumor/bam/ZLH.final.bam
+    ZLX20171026: /gatk/top/media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/wes/tumor/bam/ZLX20171026.final.bam
+    ZM20180222: /gatk/top/media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/wes/tumor/bam/ZM20180222.final.bam
+    ZMX20170413: /gatk/top/media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/wes/tumor/bam/ZMX20170413.final.bam
+    ZSS20171106: /gatk/top/media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/wes/tumor/bam/ZSS20171106.final.bam
+    ZX20171030: /gatk/top/media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/wes/tumor/bam/ZX20171030.final.bam
+    ZYK20170614: /gatk/top/media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/wes/tumor/bam/ZYK20170614.final.bam
+
+
+
+ref: /gatk/my_dir/reference/genome/hg19/GRCh37/Homo_sapiens.GRCh37.dna.primary_assembly.fa
+
+
+
+interval_list: /gatk/my_dir/my_upstream_project/hl_call_cnv/gatk_sCNV/try_again_3/GRCh37.preprocessed.interval_list
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

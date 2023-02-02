@@ -1,0 +1,26 @@
+samples:
+    CJX20200428A: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/pair_end/CJX20200428A
+    CK20200522B: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/pair_end/CK20200522B
+    CYF20200612A: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/pair_end/CYF20200612A
+    FMH20200623A: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/pair_end/FMH20200623A
+    SL20200521B: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/pair_end/SL20200521B
+    SYZ20191209A: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/pair_end/SYZ20191209A
+    YAR20191114A: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/pair_end/YAR20191114A
+    ZGL20191031A: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/pair_end/ZGL20191031A
+    ZHZ20191017A: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/pair_end/ZHZ20191017A
+
+
+file_dir: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/raw_data/pair_end
+
+
+# ref: /gatk/my_dir/reference/gatk_bundle/hg38/genome/Homo_sapiens_assembly38.fasta
+ref: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/lgh/reference/genome/hg19/old_hg19/hg19.fa
+
+#gtf: /gatk/my_dir/reference/gtf/hg38.ensGene.gtf
+gtf: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/lgh/reference/gtf/gencode.v32lift37.annotation.gtf
+
+snp1: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/lgh/reference/gatk_bundle/hg19/dbsnp_138.hg19.vcf
+
+star_index: /media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/workspace/snv/try_all_se/hg19_index/
+
+

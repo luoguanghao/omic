@@ -1,0 +1,11 @@
+ref: /gatk/my_dir/reference/genome/hg38_ensemble/Homo_sapiens.GRCh37.dna.primary_assembly.fa
+
+gtf: /gatk/my_dir/reference/gtf/Homo_sapiens.GRCh38.104.gtf
+
+snp: /gatk/my_dir/reference/gatk_bundle/hg38/dbsnp_138.hg38.vcf.gz
+
+fq_file_1: 
+  SCH20170906: /gatk/top/media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/try_2/SCH20170906_1.fq.gz
+  WPY20190613A: /gatk/top/media/bio/89c80d9d-94c7-47e2-89b8-515d83753ae5/server/AML_omic/rnaseq/try_2/WPY20190613A.fq.gz
+
+
